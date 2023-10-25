@@ -60,32 +60,9 @@
     margin: 50px;
   }
 
-  #title{
-    margin-left: 30px;
-    margin-bottom: 10px;
-    font-size: xx-large;
-    font-weight: bold;
-  }
-
-  #Docscenter{
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-
-  .img{
-    width: 145px;
-    height: 152px;
-    margin-left: 30px;
-    margin-top: 0px;
-  }
-
   .p{
     margin-left: 30px;
     margin-top: 50px;
     font-size: xx-large;
     font-weight: bold;
-  }
-
-  .center{
-    display: flex;
   }
