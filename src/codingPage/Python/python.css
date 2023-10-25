@@ -79,12 +79,17 @@ header {
   position: relative;
   width: 1000px;
   left: 140px;
+  bottom: 100px;
 }
 #contents {
   margin-left: 90px;
 }
 #leftBar {
-  position: fixed;
+  position: sticky;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+  height: 100px;
 }
 li > a {
   text-decoration: none;
