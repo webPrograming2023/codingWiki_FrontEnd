@@ -1,0 +1,126 @@
+#searchBar {
+  width: 505px;
+  height: 25px;
+  border-radius: 30px;
+  border: 3px solid #000;
+  background: #fff;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+#searchBar + img {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: 13px;
+  right: 40px;
+}
+
+#searchContainer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: end;
+  flex-grow: 1;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.menu > a {
+  margin: 0px 20px;
+  color: black;
+  text-decoration: none;
+  font-family: Itim;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+#searchBarContainer {
+  position: absolute;
+}
+
+#Logo {
+  margin-left: 15px;
+}
+
+#nav {
+  margin: 50px;
+}
+
+#title {
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+#top {
+  margin-right: 400px;
+  margin-bottom: 10px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+#word {
+  display: flex;
+  justify-content: space-between;
+}
+
+#Docscenter {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.img {
+  width: 145px;
+  height: 152px;
+  margin-left: 30px;
+  margin-top: 0px;
+}
+
+.p {
+  margin-left: 30px;
+  margin-top: 50px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.percent {
+  margin-left: 926px;
+  margin-top: 50px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.percent1 {
+  margin-left: 1010px;
+  margin-top: 50px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.percent2 {
+  margin-left: 964px;
+  margin-top: 50px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.percent3 {
+  margin-left: 968px;
+  margin-top: 50px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.percent4 {
+  margin-left: 996px;
+  margin-top: 50px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.center {
+  display: flex;
+}

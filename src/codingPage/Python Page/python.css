@@ -1,0 +1,97 @@
+#searchBar {
+  width: 505px;
+  height: 25px;
+  border-radius: 30px;
+  border: 3px solid #000;
+  background: #fff;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+#searchBar + img {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: 13px;
+  right: 40px;
+}
+
+#searchContainer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: end;
+  flex-grow: 1;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.menu > a {
+  margin: 0px 20px;
+  color: black;
+  text-decoration: none;
+  font-family: Itim;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+#Logo {
+  margin-left: 20px;
+}
+
+#container {
+  margin: 30px 0px 0px 50px;
+  position: absolute;
+}
+
+#CImg {
+  margin: 90px 0px 0px 90px;
+  width: 130px;
+  height: 150px;
+}
+#contents {
+  margin: 30px 0px 0px 50px;
+  width: 150px;
+}
+#contents > span {
+  margin-left: 20px;
+}
+#contents > hr {
+  width: 120px;
+}
+#contents > ul {
+  list-style-type: none;
+}
+#contents > ul > li {
+  margin-bottom: 10px;
+}
+
+#content {
+  margin: 100px 130px 0px;
+  padding-bottom: 50px;
+  position: relative;
+  width: 1000px;
+  left: 140px;
+  bottom: 100px;
+}
+#contents {
+  margin-left: 90px;
+}
+#leftBar {
+  position: sticky;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+  height: 100px;
+}
+li > a {
+  text-decoration: none;
+  color: black;
+}
