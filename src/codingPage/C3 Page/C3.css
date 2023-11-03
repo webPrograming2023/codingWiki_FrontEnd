@@ -1,92 +1,137 @@
-#searchBar {
-    width: 505px;
-    height: 25px;
-    border-radius: 30px;
-    border: 3px solid #000;
-    background: #fff;
-    padding: 10px;
-    padding-left: 20px;
-  }
-  
-  #searchBar + img {
-    width: 25px;
-    height: 25px;
-    position: relative;
-    top: 13px;
-    right: 40px;
-  }
-  
-  #searchContainer {
-    margin-top: 40px;
-    display: flex;
-    justify-content: end;
-    flex-grow: 1;
-  }
-  
-  header {
-    display: flex;
-    align-items: center;
-  }
-  
-  .menu {
-    margin-top: 30px;
-    margin-left: 50px;
-  }
-  
-  .menu > a {
-    margin: 0px 20px;
-    color: black;
-    text-decoration: none;
-    font-family: Itim;
-    font-size: 25px;
-    font-weight: 400;
-  }
-  
-  #Logo {
-    margin-left: 20px;
-  }
-  
-  #container {
-    margin: 30px 0px 0px 50px;
-    position: absolute;
-  }
-  
-  #C3Img {
-    margin: 90px 0px 0px 90px;
-    width: 130px;
-    height: 150px;
-  }
-  #contents {
-    margin: 30px 0px 0px 50px;
-    width: 150px;
-  }
-  #contents > span {
-    margin-left: 20px;
-  }
-  #contents > hr {
-    width: 120px;
-  }
-  #contents > ul {
-    list-style-type: none;
-  }
-  #contents > ul > li {
-    margin-bottom: 10px;
-  }
-  
-  #content {
-    margin: 100px 130px 0px;
-    padding-bottom: 50px;
-    position: relative;
-    width: 1000px;
-    left: 140px;
-  }
-  #contents {
-    margin-left: 90px;
-  }
-  #leftBar {
-    position: fixed;
-  }
-  li > a {
-    text-decoration: none;
-    color: black;
-  }
+#container {
+  display: flex;
+  scroll-behavior: smooth;
+}
+
+/* 좌측 목차 */
+#headerContainer {
+  display: flex;
+  flex-direction: column;
+  height: 950px;
+}
+#logoContainer {
+  text-align: center;
+  padding-top: 50px;
+  height: 200px;
+  width: 250px;
+}
+#contentContainer {
+  background-color: rgb(245, 248, 249);
+  width: 250px;
+  height: 100%;
+}
+.content {
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 30%;
+  font-size: 20px;
+  color: rgb(213, 216, 217);
+}
+.contentList {
+  position: sticky;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+  height: 100px;
+  list-style: none;
+}
+.firstList {
+  display: inline-block;
+  width: 100px;
+  margin: 10px 10px 0px;
+  color: rgb(116, 120, 120);
+  text-decoration: none;
+  font-weight: 600;
+}
+.firstList:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  color: orange;
+}
+
+/* 본문 */
+#bodyContainer {
+  display: flex;
+  flex-direction: column;
+  height: 950px;
+  width: 950px;
+  box-shadow: -5px 0px 10px lightgray, 5px 0px 10px lightgray;
+  z-index: 999s;
+}
+.top {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.top > img {
+  margin: 15px;
+  width: 50px;
+  height: 50px;
+}
+.title {
+  padding: 0px 100px;
+}
+.summary {
+  width: 35%;
+  height: 30px;
+  margin: 0px 100px;
+  padding: 10px 10px 0px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgb(235, 238, 239);
+  font-weight: 600;
+}
+#content {
+  scroll-behavior: smooth;
+  margin: 20px 100px 0px;
+}
+.contentHR {
+  margin: 15px 0px 10px;
+}
+
+/* 오른쪽 메뉴 */
+#navContainer {
+  display: flex;
+  flex-direction: column;
+  height: 950px;
+}
+.searchBarContainer {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+}
+.searchBar {
+  width: 245px;
+  height: 40px;
+  padding-left: 35px;
+  margin: 10px 10px 5px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px lightgray;
+  border: 0.5px solid lightgray;
+}
+.searchImg {
+  width: 20px;
+  position: relative;
+  bottom: 37px;
+  left: 21px;
+}
+#rightBarContainer {
+  z-index: -1;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(245, 248, 249);
+}
+#langImg {
+  margin: 10px 50px;
+  width: 140px;
+  height: 150px;
+}
+#langSummaryPage {
+  position: sticky;
+  top: 10px;
+  left: 10px;
+}
+.langSummaryContent {
+  margin: 0px 50px;
+}
