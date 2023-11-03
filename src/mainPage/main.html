@@ -1,81 +1,89 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./main.css" rel="stylesheet" />
-    <title>main</title>
-  </head>
-  <body>
-    <header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./main.css" rel="stylesheet" />
+  <title>main</title>
+</head>
+<body>
+  <header>
+    <div class="logo-menu">
       <img src="../img/logo.png" alt="Logo" id="Logo" />
-      <div class="menu">
-        <a href="./main.html">home</a>
-        <a href="../rakingPage/ranking.html">ranking</a>
+    </div>
+    <div id="searchContainer">
+      <input type="text" id="searchBar" placeholder="search anything you want" />
+      <a href="https://www.tcpschool.com/">
+        <img id="searchBt" src="../img/search.png" alt="검색창" />
+      </a>
+      <div class="nav-links">
+        <div class="a-roller">
+          <a href="./main.html">home</a>
+        </div>
+        <div class="a-roller">
+          <a href="../rakingPage/ranking.html">ranking</a>
+        </div>
       </div>
-      <div id="searchContainer">
-        <input
-          type="text"
-          id="searchBar"
-          placeholder="search anything you want"
-        />
-        <img src="../img/search.png" alt="검색창" />
-      </div>
-    </header>
-    <nav id="nav">
-      <p id="title">All Docs</p>
-      <hr />
-      <div id="Docscenter">
-        <div class="center">
-          <a href="../codingPage/C Page/C.html">
-            <img class="img" src="../img/C.png" />
-          </a>
+    </div>
+  </header>
+  <nav id="nav">
+    <p id="title">All Docs</p>
+    <hr />
+    <div id="Docscenter">
+      <div class="center">
+        <a href="../codingPage/C Page/C.html">
+          <img class="c-img" src="../img/C.png" />
           <p class="p">C</p>
-        </div>
-        <hr />
-        <div class="center">
-          <a href="../codingPage/C++ Page/C++.html">
-            <img class="img" src="../img/C++.png" />
-          </a>
-          <p class="p">C++</p>
-        </div>
-        <hr />
-        <div class="center">
-          <a href="../codingPage/Python Page/python.html">
-            <img class="img" src="../img/Python.png" />
-          </a>
-          <p class="p">Python</p>
-        </div>
-        <hr />
-        <div class="center">
-          <a href="../codingPage/Js Page/JS.html">
-            <img class="img" src="../img/JS.png" />
-          </a>
-          <p class="p">JavaScript</p>
-        </div>
-        <hr />
-        <div class="center">
-          <a href="../codingPage/C3 Page/C3.html">
-            <img class="img" src="../img/C3.png" />
-          </a>
-          <p class="p">C#</p>
-        </div>
-        <hr />
-        <div class="center">
-          <a href="../codingPage/javaPage/javaPage.html">
-            <img class="img" src="../img/java.png" />
-          </a>
-          <p class="p">Java</p>
-        </div>
-        <hr />
-        <div class="center">
-          <a href="../codingPage/SqlPage/SqlPage.html">
-            <img class="img" src="../img/Sql.png" />
-          </a>
-          <p class="p">Sql</p>
-        </div>
+          <span class="description">programming language</span>
+        </a>
       </div>
-      <hr />
-    </nav>
-  </body>
+      <div class="center">
+        <a href="../codingPage/C++ Page/C++.html">
+          <img class="cp-img" src="../img/C++.png" />
+          <p class="p">C++</p>
+          <span class="description">programming language</span>
+        </a>
+      </div>
+      <div class="center">
+        <a href="../codingPage/Python Page/python.html">
+          <img class="py-img" src="../img/Python.png" />
+          <p class="p">Python</p>
+          <span class="description">programming language</span>
+        </a>
+      </div>
+      <div class="center">
+        <a href="../codingPage/Js Page/JS.html">
+          <img class="img" src="../img/JS.png" />
+          <p class "p">JavaScript</p>
+          <span class="description">programming language</span>
+        </a>
+      </div>
+      <div class="center">
+        <a href="../codingPage/C3 Page/C3.html">
+          <img class="c3-img" src="../img/C3.png" />
+          <p class="p">C#</p>
+          <span class="description">C# programming language</span>
+        </a>
+      </div>      
+      <div class="center">
+        <a href="../codingPage/SqlPage/SqlPage.html">
+          <img class="Sql-img" src="../img/Sql.png" />
+          <p class="p">Sql</p>
+          <span class="description">database language</span>
+        </a>
+      </div>
+      <div class="center">
+        <a href="../codingPage/javaPage/javaPage.html">
+          <img class="img" src="../img/java.png" />
+          <p class="p">Java</p>
+          <span class="description">programming language</span>
+        </a>
+      </div>
+    </div>
+    <hr />
+  </nav>
+  <footer>
+    <p>Coding Wiki의 목표 = "사람들이 코딩에 대한 이해도를 높이는것을 목표로 합니다";</p>
+  </footer>
+</body>
 </html>

@@ -51,9 +51,9 @@ header {
   position: absolute;
 }
 
-#CImg {
+#PImg {
   margin: 90px 0px 0px 90px;
-  width: 130px;
+  width: 150px;
   height: 150px;
 }
 #contents {

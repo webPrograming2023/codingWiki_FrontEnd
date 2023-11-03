@@ -50,7 +50,7 @@ header {
   margin-left: 15px;
 }
 
-#nav {
+#main {
   margin: 50px;
 }
 
@@ -73,6 +73,108 @@ header {
 #Docscenter {
   margin-left: 30px;
   margin-right: 30px;
+}
+
+#py-rankingbar{
+  display: flex;
+}
+
+.number{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(226, 226, 226);
+  border-radius: 30px;
+  font-size: x-large;
+  box-shadow: 2px 2px 2px 0px gray;
+}
+
+#Py_ranking{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 25px;
+  width: 1000px;
+  height: 50px;
+  background-color: rgb(226, 226, 226);
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 2px 2px 2px 0px gray;
+}
+
+#C_ranking{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 25px;
+  width: 800px;
+  height: 50px;
+  background-color: rgb(226, 226, 226);
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 2px 2px 2px 0px gray;
+}
+
+#Cp_ranking{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 25px;
+  width: 600px;
+  height: 50px;
+  background-color: rgb(226, 226, 226);
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 2px 2px 2px 0px gray;
+}
+
+#Java_ranking{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 25px;
+  width: 400px;
+  height: 50px;
+  background-color: rgb(226, 226, 226);
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 2px 2px 2px 0px gray;
+}
+
+#C3_ranking{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 25px;
+  width: 200px;
+  height: 50px;
+  background-color: rgb(226, 226, 226);
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 2px 2px 2px 0px gray;
+}
+
+.imgimg{
+  margin-top: 8px;
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.mola{
+  display: flex;
 }
 
 .img {
